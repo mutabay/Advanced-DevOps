@@ -1,4 +1,4 @@
-# Assignment 1: Basic Event Producer/Consumer (Redis Streams)
+# Lab 1: Basic Event Producer/Consumer (Redis Streams)
 
 **Goal**: Build your first event-driven system using Redis Streams
 

@@ -1,4 +1,4 @@
-# Assignment 3: Apache Kafka - COMPLETED
+# Lab 3: Apache Kafka - COMPLETED
 
 **Goal**: Master enterprise-grade event streaming with Apache Kafka
 

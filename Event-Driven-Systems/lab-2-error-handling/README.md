@@ -1,4 +1,4 @@
-# Assignment 2: Error Handling & Retry Logic - COMPLETED
+# Lab 2: Error Handling & Retry Logic - COMPLETED
 
 **Goal**: Build production-ready error handling for event-driven systems
 

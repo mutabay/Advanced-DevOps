@@ -182,7 +182,7 @@ After rebalance:      [Consumer-1: P1,P2]              [Consumer-3: P3]
 ```
 
 **Key Concepts:**
-- **Partition assignment**: Each partition assigned to one consumer in group
+- **Partition lab**: Each partition assigned to one consumer in group
 - **Rebalancing**: Automatic redistribution when consumers join/leave
 - **Offset management**: Group tracks progress through stream
 - **Parallelism**: Degree of parallelism = number of partitions
@@ -307,40 +307,40 @@ pip install -r requirements.txt
 **Directory Structure You Should Create:**
 ```
 Event-Driven-Systems/
-├── assignment1-redis-basics/
+├── lab-1-redis-basics/
 │   ├── producer.py
 │   ├── consumer.py
 │   └── requirements.txt
-├── assignment2-error-handling/
+├── lab-2-error-handling/
 │   ├── advanced_consumer.py
 │   ├── dlq_monitor.py
 │   └── error_simulator.py
-├── assignment3-kafka/
+├── lab-3-kafka/
 │   ├── kafka_producer.py
 │   ├── kafka_consumer.py
 │   └── docker-compose.yml
-└── assignment4-microservices/
+└── lab-4-microservices/
     ├── order_service.py
     ├── inventory_service.py
     ├── notification_service.py
     └── analytics_service.py
 ```
 
-## Module 5: Practical Assignment Guide
+## Module 5: Practical Lab Guide
 
-### Assignment 1: Basic Event Producer/Consumer (Redis Streams)
+### lab 1: Basic Event Producer/Consumer (Redis Streams)
 
 **Goal**: Build your first event-driven system using Redis Streams
 
-### Assignment 2: Advanced Error Handling & Retry Logic
+### lab 2: Advanced Error Handling & Retry Logic
 
 **Goal**: Implement production-ready error handling patterns
 
-### Assignment 3: Apache Kafka Deep Dive
+### lab 3: Apache Kafka Deep Dive
 
 **Goal**: Work with enterprise-grade streaming using Apache Kafka
 
-### Assignment 4: Multi-Service Event Architecture
+### lab 4: Multi-Service Event Architecture
 
 **Goal**: Design and implement a complete microservices system with event-driven communication
 
