@@ -11,6 +11,44 @@ By the end of this guide, you will:
 - Work hands-on with Kafka and Redis Streams locally
 - Design and build production-ready event processing pipelines
 
+## Quick Reference: Key Concepts
+
+### Event-Driven Architecture
+- **Events**: Immutable facts about past occurrences (OrderPlaced, UserRegistered)
+- **Async Communication**: Non-blocking, loose coupling between services
+- **Event vs Command**: Events = past tense notifications, Commands = action requests
+- **Delivery Guarantees**: At-most-once (fast), At-least-once (reliable), Exactly-once (complex)
+
+### Redis Streams
+- **XADD**: Add events to stream
+- **XREADGROUP**: Consumer groups for load balancing
+- **Consumer Groups**: Automatic partition assignment and rebalancing
+- **Persistent Storage**: Events remain after consumption for replay
+
+### Error Handling Patterns
+- **Exponential Backoff**: Progressive retry delays (1s, 2s, 4s, 8s...)
+- **Dead Letter Queue**: Separate queue for permanently failed messages
+- **Circuit Breaker**: Fail-fast when downstream services degraded
+- **Poison Message Detection**: Identify malformed data that breaks processing
+
+### Apache Kafka
+- **Topics & Partitions**: Logical streams divided for parallelism
+- **Consumer Groups**: Load balancing with partition assignment
+- **Offset Management**: Track processing position per consumer group
+- **Replication**: Multiple copies across brokers for fault tolerance
+
+### Microservices Event Patterns
+- **Event Sourcing**: Store events instead of current state
+- **CQRS**: Separate read and write operations
+- **Saga Pattern**: Distributed transactions via event choreography
+- **Database per Service**: Each service owns its data
+
+### Monitoring Essentials
+- **Throughput**: Messages/second produced and consumed
+- **Latency**: End-to-end processing time (p50, p95, p99)
+- **Consumer Lag**: How far behind consumers are from latest events
+- **Error Rate**: Failed processing percentage
+
 ## Module 1: Core Concepts & Theory
 
 ### What is Event-Driven Architecture (EDA)?
