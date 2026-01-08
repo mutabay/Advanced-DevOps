@@ -24,8 +24,7 @@ services:
       KAFKA_CREATE_TOPICS: "user-events:1:1,order-events:1:1,inventory-events:1:1,payment-events:1:1,notification-events:1:1,analytics-events:1:1"
     networks:
       - microservices-network
-    networks:
-      - microservices-network
+ 
 
   user-db:
     image: postgres:13
