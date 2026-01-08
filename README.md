@@ -37,17 +37,7 @@ This document summarizes the core skills, tools, and concepts to learn a senior-
 
 ---
 
-## 4. Cloud Architecture (Vendor-Neutral)
-- Learn VPC design, subnets, gateways, routing.
-- Understand IAM principles, least privilege, roles.
-- Work with load balancers, autoscaling, resilient design.
-- Evaluate cost, security, and performance trade-offs.
-
-**Goal:** Build solid cloud foundations for microservices and workloads.
-
----
-
-## 5. Event-Driven Systems
+## 4. Event-Driven Systems
 - Understand queues, streams, consumer groups.
 - Work with Kafka/Redis Streams/SQS.
 - Design retry logic, DLQs, and event-processing pipelines.
@@ -56,7 +46,7 @@ This document summarizes the core skills, tools, and concepts to learn a senior-
 
 ---
 
-## 6. Python Automation for Infrastructure
+## 5. Python Automation for Infrastructure
 - Build FastAPI automation backends.
 - Use async I/O for high concurrency.
 - Create background workers (Celery/Dramatiq).
@@ -66,7 +56,7 @@ This document summarizes the core skills, tools, and concepts to learn a senior-
 
 ---
 
-## 7. AI for Infrastructure (AIOps)
+## 6. AI for Infrastructure (AIOps)
 - Learn LLM agent patterns (ReAct, tool calling).
 - Combine alerts + metrics + logs → AI reasoning engine.
 - Generate safe action plans validated via policies.
@@ -77,7 +67,7 @@ This document summarizes the core skills, tools, and concepts to learn a senior-
 
 ---
 
-## 8. GitOps / CI/CD
+## 7. GitOps / CI/CD
 - Build pipelines for test → build → deploy.
 - Integrate ArgoCD/Flux for declarative deployments.
 - Automate versioning, image builds, and environment promotion.
