@@ -1,6 +1,6 @@
-# Prometheus & Observability — Essential Learning Notes
+# Prometheus & Observability
 
-This document summarises the key concepts, roadmap, and practice tasks for mastering Prometheus observability.
+This document summarises the key concepts, roadmap, and practice tasks for learning Prometheus observability.
 Observability focuses on understanding the internal state of your systems based on the data they produce, which helps determine if your infrastructure is healthy. Prometheus is a core technology for monitoring and observability of systems.
 
 The **Node Exporter** is a component of the Prometheus monitoring ecosystem, used to collect and export information about a node’s (server’s) hardware and operating system in a format that can be read by Prometheus. It is especially useful for providing information about the performance and state of system resources such as CPU, memory, disk, network, and so on.
@@ -140,5 +140,3 @@ Prometheus is built around:
 	- Python Exporter: http://localhost:8000/metrics
 5. In Grafana, add Prometheus as a data source (URL: `http://prometheus:9090`).
 6. Create a dashboard and visualize the metric `my_queue_length`.
-
-That's it! You now have a working observability stack for hands-on learning.
