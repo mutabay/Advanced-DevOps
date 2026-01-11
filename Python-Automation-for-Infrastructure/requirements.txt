@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pytest
+httpx
+pytest-cov
+celery
+redis
+requests
