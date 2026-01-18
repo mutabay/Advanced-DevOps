@@ -1,6 +1,6 @@
 # Advanced DevOps & AIOps — Learning Overview
 
-This document summarizes the core skills, tools, and concepts to learn a senior-level DevOps / SRE / AIOps.
+How to get better in DevOps / SRE / AIOps.
 
 ---
 
