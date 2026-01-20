@@ -1,91 +1,135 @@
-# Advanced DevOps & AIOps — Learning Overview
+# Advanced DevOps & AIOps
 
-How to get better in DevOps / SRE / AIOps.
+Building autonomous, scalable, and self-healing infrastructure systems
 
----
+## 📋 Overview
 
-## 1. Kubernetes (Advanced)
-- Understand internal mechanics: control plane, kubelet, scheduling.
-- Work with CRDs and Operators (reconciliation, idempotency).
-- Use controller-runtime for clean controller patterns.
-- Apply PDBs, affinity rules, and eviction logic for high availability.
+Comprehensive learning path covering advanced DevOps practices, from Kubernetes orchestration to AI-driven operations, focusing on automation, observability, and intelligent infrastructure management.
 
-**Goal:** Build and automate complex workloads directly inside Kubernetes.
+## 📂 Learning Modules
 
----
+### [Kubernetes (Advanced)](Kubernetes/)
 
-## 2. Prometheus & Observability
-- Learn Prometheus data model, metric types, labels.
-- Build custom exporters (Python/Go).
-- Write PromQL for real SLO insights (latency, errors, saturation).
-- Create alert rules + recording rules.
-- Build SLO dashboards in Grafana.
-- Understand Thanos for long-term storage.
+Deep dive into Kubernetes internals and automation
 
-**Goal:** Full observability pipeline for production systems.
+**Topics:**
+- Control plane mechanics and kubelet internals
+- Custom Resource Definitions (CRDs) and Operators
+- Controller-runtime patterns
+- High availability: PDBs, affinity rules, eviction logic
+
+**Goal**: Build and automate complex workloads in Kubernetes
 
 ---
 
-## 3. Terraform (Advanced IaC)
-- Write reusable modules.
-- Manage remote state + locking.
-- Use workspaces for environments.
-- Understand drift detection and plan/apply pipelines.
-- Integrate IaC with CI/CD and GitOps.
+### [Prometheus & Observability](Prometheus-Observability/)
 
-**Goal:** Declarative, automated infrastructure at scale.
+Full-stack observability and SLO-based monitoring
 
----
+**Topics:**
+- Prometheus data model and metric types
+- Custom exporters (Python/Go)
+- PromQL for SLO insights (latency, errors, saturation)
+- Alert and recording rules
+- Grafana SLO dashboards
+- Thanos for long-term storage
 
-## 4. Event-Driven Systems
-- Understand queues, streams, consumer groups.
-- Work with Kafka/Redis Streams/SQS.
-- Design retry logic, DLQs, and event-processing pipelines.
-
-**Goal:** Build systems that react reliably to events and failures.
+**Goal**: Production-grade observability pipeline
 
 ---
 
-## 5. Python Automation for Infrastructure
-- Build FastAPI automation backends.
-- Use async I/O for high concurrency.
-- Create background workers (Celery/Dramatiq).
-- Implement task runners, remediation scripts, and health agents.
+### [Terraform (Advanced IaC)](Terraform/)
 
-**Goal:** Automate infrastructure operations with custom logic.
+Infrastructure as Code at scale
 
----
+**Topics:**
+- Reusable module development
+- Remote state and locking
+- Workspace management
+- Drift detection
+- CI/CD and GitOps integration
 
-## 6. AI for Infrastructure (AIOps)
-- Learn LLM agent patterns (ReAct, tool calling).
-- Combine alerts + metrics + logs → AI reasoning engine.
-- Generate safe action plans validated via policies.
-- Integrate Terraform, kubectl, or automation tools.
-- Build automated incident analysis and remediation loops.
-
-**Goal:** Intelligent, self-healing infrastructure automation.
+**Goal**: Declarative, automated infrastructure management
 
 ---
 
-## 7. GitOps / CI/CD
-- Build pipelines for test → build → deploy.
-- Integrate ArgoCD/Flux for declarative deployments.
-- Automate versioning, image builds, and environment promotion.
+### [Event-Driven Systems](Event-Driven-Systems/)
 
-**Goal:** Reliable, automated delivery pipeline.
+Reliable event processing and messaging
+
+**Topics:**
+- Queues, streams, and consumer groups
+- Kafka/Redis Streams/SQS
+- Retry logic and Dead Letter Queues (DLQ)
+- Event-processing pipelines
+
+**Goal**: Build systems that handle events and failures reliably
 
 ---
 
-# Summary
-This learning path develops skills across:
-- **Kubernetes automation**
-- **Observability and SLO-based monitoring**
-- **Infrastructure-as-Code**
-- **Cloud design**
-- **Event systems**
-- **Python automation**
-- **AI-driven operations (AIOps)**
-- **CI/CD + GitOps**
+### [Python Automation for Infrastructure](Python-Automation-for-Infrastructure/)
 
-The end goal is to **building autonomous, scalable, self-healing systems**.
+Custom automation and orchestration tools
 
+**Topics:**
+- FastAPI automation backends
+- Async I/O for high concurrency
+- Background workers (Celery/Dramatiq)
+- Remediation scripts and health agents
+
+**Goal**: Automate infrastructure operations with custom logic
+
+---
+
+### AI for Infrastructure (AIOps)
+
+*Coming Soon*
+
+**Planned Topics:**
+- LLM agent patterns (ReAct, tool calling)
+- AI reasoning with alerts, metrics, and logs
+- Policy-validated action plans
+- Automated incident analysis and remediation
+- Self-healing infrastructure loops
+
+**Goal**: Intelligent, autonomous infrastructure automation
+
+---
+
+### GitOps / CI/CD
+
+*Coming Soon*
+
+**Planned Topics:**
+- Test → Build → Deploy pipelines
+- ArgoCD/Flux declarative deployments
+- Automated versioning and image builds
+- Environment promotion strategies
+
+**Goal**: Reliable, automated delivery pipeline
+
+---
+
+
+## 🛠️ Technologies
+
+- Kubernetes, CRDs, Operators
+- Prometheus, Grafana, Thanos
+- Terraform, GitOps
+- Kafka, Redis Streams, SQS
+- Python, FastAPI, Celery
+- ArgoCD, Flux (planned)
+- LLMs for AIOps (planned)
+
+## 🚀 End Goal
+
+**Building autonomous, scalable, self-healing infrastructure systems** that:
+- Automatically detect and respond to issues
+- Scale based on real-time metrics
+- Self-remediate common failures
+- Provide comprehensive observability
+- Deploy reliably through GitOps
+
+---
+
+*Advanced DevOps practices for modern infrastructure*
