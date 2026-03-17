@@ -96,21 +96,6 @@ Custom automation and orchestration tools
 
 ---
 
-### GitOps / CI/CD
-
-*Coming Soon*
-
-**Planned Topics:**
-- Test → Build → Deploy pipelines
-- ArgoCD/Flux declarative deployments
-- Automated versioning and image builds
-- Environment promotion strategies
-
-**Goal**: Reliable, automated delivery pipeline
-
----
-
-
 ## 🛠️ Technologies
 
 - Kubernetes, CRDs, Operators
